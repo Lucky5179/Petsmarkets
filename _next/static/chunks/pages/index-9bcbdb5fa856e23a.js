@@ -151,7 +151,7 @@
           blurHeight: 0,
         },
         A = {
-          src: "/_next/static/media/Telegram.ec780956.svg",
+          src: "/_next/static/media/telegram.ec780956.svg",
           height: 27,
           width: 26,
           blurWidth: 0,
@@ -437,7 +437,7 @@
               {
                 href: "https://Telegram.gg/Petsmarkets",
                 src: {
-                  src: "/_next/static/media/Telegram-circular.8d59adcc.svg",
+                  src: "/_next/static/media/telegram-circular.8d59adcc.svg",
                   height: 27,
                   width: 27,
                   blurWidth: 0,
@@ -1961,8 +1961,7 @@
                                       "text-[#FFF9F3] text-[3.5rem] mt-[1.25rem] font-bold md:text-[56px] md:mt-[20px]",
                                     children:
                                       "0.00" === a.fixed
-                                        ? "--,---,---"
-                                        : (0, i.jsx)(eN.ZP, {
+                                        ?(0, i.jsx)(eN.ZP, {
                                             start: 0,
                                             end: Number(a.value),
                                             duration: 5,
@@ -1970,7 +1969,8 @@
                                             preserveValue: !0,
                                             decimals: 2,
                                             prefix: "$",
-                                          }),
+                                          })
+                                        : "--,---,---",
                                   }),
                               ],
                             }),
@@ -1995,8 +1995,7 @@
                                           "text-[#FFF9F3] text-[1.75rem] mt-[1.25rem] font-bold md:text-[28px] md:mt-[20px]",
                                         children:
                                           "0.00" === s.fixed
-                                            ? "--,---,---"
-                                            : (0, i.jsx)(eN.ZP, {
+                                            ?(0, i.jsx)(eN.ZP, {
                                                 start: 0,
                                                 end: Number(s.value),
                                                 duration: 5,
@@ -2004,7 +2003,8 @@
                                                 preserveValue: !0,
                                                 decimals: 2,
                                                 prefix: "$",
-                                              }),
+                                              })
+                                            : "--,---,---",
                                       }),
                                   ],
                                 }),
