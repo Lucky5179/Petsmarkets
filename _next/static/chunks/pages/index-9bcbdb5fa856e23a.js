@@ -849,7 +849,7 @@
             link: "https://petsmarkets.gitbook.io/petsmarkets",
           },
         ],
-        R = "https://dapp.Petsmarkets.xyz",
+        R = "https://dapppetsmarkets.vercel.app/",
         I = {
           hexagate: "https://www.hexagate.com/",
           deaub: "https://petsmarkets.gitbook.io/petsmarketsother-info/security",
