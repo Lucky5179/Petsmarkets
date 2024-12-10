@@ -32,11 +32,9 @@
           blurHeight: 0,
         },
         c = {
-          src: "/_next/static/media/Pets-icon.5645287b.png",
+          src: "/_next/static/media/Pets-icon.5645287b.svg",
           height: 53,
           width: 196,
-          blurDataURL:
-            "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAACCAMAAABSSm3fAAAAD1BMVEX+//v7pdEzijWozozZvAAAABXRSTlMcTC82JDC3784AAAAJcEhZcwAACxMAAAsTAQCanBgAAAAVSURBVHicY2BkZIAARhYmJgZmZiYAAH4AFCazJaUAAAAASUVORK5CYII=",
           blurWidth: 8,
           blurHeight: 2,
         },
@@ -153,7 +151,7 @@
           blurHeight: 0,
         },
         A = {
-          src: "/_next/static/media/discord.ec780956.svg",
+          src: "/_next/static/media/Telegram.ec780956.svg",
           height: 27,
           width: 26,
           blurWidth: 0,
@@ -414,25 +412,13 @@
           },
         ],
         S = [
-          {
-            href: "https://github.com/Petsmarkets",
-            src: {
-              src: "/_next/static/media/github.4c263503.svg",
-              height: 27,
-              width: 26,
-              blurWidth: 0,
-              blurHeight: 0,
-            },
-            alt: "Github",
-          },
           { href: "https://docs.Petsmarkets.xyz/", src: E, alt: "Book" },
-          { href: "https://discord.gg/Petsmarkets", src: A, alt: "Discord" },
+          { href: "https://Telegram.gg/Petsmarkets", src: A, alt: "Telegram" },
           { href: "https://x.com/PetsMarketsHQ", src: F, alt: "X" },
         ],
         M = [
           { page: "Pets", link: "Pets", mobileLink: "mobile-Pets" },
           { page: "Status ", link: "Status", mobileLink: "mobile-status" },
-          { page: "Security", link: "Security", mobileLink: "mobile-security" },
           {
             page: "Follow Us",
             link: "Follow Us",
@@ -449,59 +435,20 @@
                 name: "X",
               },
               {
-                href: "https://discord.gg/Petsmarkets",
+                href: "https://Telegram.gg/Petsmarkets",
                 src: {
-                  src: "/_next/static/media/discord-circular.8d59adcc.svg",
+                  src: "/_next/static/media/Telegram-circular.8d59adcc.svg",
                   height: 27,
                   width: 27,
                   blurWidth: 0,
                   blurHeight: 0,
                 },
-                name: "Discord",
-              },
-              {
-                href: "https://github.com/Petsmarkets",
-                src: {
-                  src: "/_next/static/media/github-circular.38c20bc1.svg",
-                  height: 27,
-                  width: 27,
-                  blurWidth: 0,
-                  blurHeight: 0,
-                },
-                name: "Github",
+                name: "Telegram",
               },
             ],
           },
         ],
         _ = [
-          {
-            key: "LEARN",
-            value: [
-              { key: "Docs", link: "https://docs.Petsmarkets.xyz/" },
-              { key: "Blog", link: "https://medium.com/@Petsmarkets" },
-              {
-                key: "Branding",
-                link: "https://github.com/Petsmarkets/Pets_Brand_Assets",
-              },
-            ],
-          },
-          {
-            key: "LEGAL",
-            value: [
-              {
-                key: "Privacy Policy",
-                link: "https://docs.Petsmarkets.xyz/other-info/legal-disclaimer",
-              },
-              {
-                key: "Terms & Conditions",
-                link: "https://docs.Petsmarkets.xyz/other-info/legal-disclaimer",
-              },
-              {
-                key: "Disclaimer",
-                link: "https://docs.Petsmarkets.xyz/other-info/legal-disclaimer",
-              },
-            ],
-          },
         ],
         H = [
           {
@@ -859,11 +806,9 @@
               "Have a question or want to contribute? Join the Pets Markets community on Twitter.",
             buttonText: "Open Twitter",
             bg: {
-              src: "/_next/static/media/x-icon-direct.222cabfa.png",
+              src: "/_next/static/media/x-icon-direct.222cabfa.svg",
               height: 178,
               width: 278,
-              blurDataURL:
-                "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAMAAABPT11nAAAAHlBMVEU1GxtMJBw8Gxc1GxYyGBRCHxcyGxUxGRQ+IBc5HhfIreALAAAACnRSTlMBDBtdNidBSXClbSeVagAAAAlwSFlzAAALEwAACxMBAJqcGAAAACpJREFUeJwVyLkNADAMA7Gz5C/7Lxy4IkC8E0SAnkddQeemdQXpOqiUxQcLkAByRhW5twAAAABJRU5ErkJggg==",
               blurWidth: 8,
               blurHeight: 5,
             },
@@ -871,12 +816,12 @@
           },
           {
             id: 2,
-            label: "Docs",
+            label: "Telegram",
             icon: A,
-            title: "Pets World Discord",
+            title: "Pets World Telegram",
             description:
-              "Have a question or want to contribute? Join the Pets Markets community on Discord.",
-            buttonText: "Open Discord",
+              "Have a question or want to contribute? Join the Pets Markets community on Telegram.",
+            buttonText: "Open Telegram",
             bg: {
               src: "/_next/static/media/mobile-docs-icon-direct.24da7a4f.svg",
               height: 140,
@@ -884,7 +829,7 @@
               blurWidth: 0,
               blurHeight: 0,
             },
-            link: "https://discord.gg/Petsmarkets",
+            link: "https://Telegram.gg/Petsmarkets",
           },
           {
             id: 3,
@@ -2264,182 +2209,11 @@
           let SecuritySectionButton = (e) => {
             window.open(I[e]);
           };
-          return (0, i.jsx)("section", {
-            className: "bg-[#0A0E16] w-full  px-[25px]",
-            id: "mobile-security",
-            children: (0, i.jsx)(AnimatedModule, {
-              type: "text",
-              stagger: !0,
-              className: "flex justify-center",
-              threshold: 0.1,
-              children: (e) => {
-                let { inView: t } = e;
-                return (0, i.jsxs)("div", {
-                  className:
-                    "flex flex-col items-center my-[4rem]  max-w-screen-md w-full",
-                  children: [
-                    (0, i.jsxs)(d.E.div, {
-                      className: "flex flex-col items-center mb-[4.5rem]",
-                      children: [
-                        (0, i.jsx)(d.E.span, {
-                          className:
-                            "text-[#FF6F43] text-[1.6rem] font-medium mb-[6]",
-                          children: "security",
-                        }),
-                        (0, i.jsx)(d.E.span, {
-                          className: "text-[#FFFFFF] text-[3.1rem] font-[600]",
-                          children: "Your safety, our top priority",
-                        }),
-                      ],
-                    }),
-                    (0, i.jsxs)(d.E.div, {
-                      variants: getVariants("text", !1),
-                      className:
-                        "mobile-security-bg relative md:w-[650px] md:h-[1204px] w-[40.63rem] h-[75.25rem] md:px-[40px] px-[2.5rem] md:py-[80px] py-[5rem] md:gap-[48px] gap-[3rem] flex flex-col justify-end",
-                      children: [
-                        (0, i.jsx)(d.E.span, {
-                          className:
-                            "font-bold md:text-[47.78px] text-[2.99rem]",
-                          children: "Secured and protected",
-                        }),
-                        (0, i.jsx)(d.E.span, {
-                          className:
-                            "md:text-[31.76px] text-[1.99rem] text-[rgba(249,249,249,0.6)]",
-                          children:
-                            "Audited by the world’s leading security firms, security of the Pets Markets Protocol is the highest priority.",
-                        }),
-                        (0, i.jsxs)(d.E.div, {
-                          className:
-                            "flex flex-wrap md:gap-[22px] gap-[1.38rem]",
-                          variants: getVariants("img", !1),
-                          children: [
-                            (0, i.jsxs)(d.E.div, {
-                              className:
-                                "bg-[#0A0E16] flex items-center justify-between rounded-[8px] gradient-border md:h-[80px] h-[5rem] md:w-[270px] w-[16.88rem] md:px-[20px] px-[1.25rem]",
-                              children: [
-                                (0, i.jsx)(l(), {
-                                  src: y,
-                                  alt: "hexagate",
-                                  className:
-                                    "h-auto md:w-[158.92px] w-[9.93rem] md:mr-[20px] mr-[1.25rem]",
-                                }),
-                                (0, i.jsx)(l(), {
-                                  src: f,
-                                  alt: "securityButton",
-                                  onClick: () => {
-                                    SecuritySectionButton("hexagate");
-                                  },
-                                  className:
-                                    "md:h-[38px] h-[2.38rem] md:w-[38px] w-[2.38rem] cursor-pointer relative z-50",
-                                }),
-                              ],
-                            }),
-                            (0, i.jsxs)(d.E.div, {
-                              className:
-                                "bg-[#0A0E16] flex items-center justify-between rounded-[8px] gradient-border md:h-[80px] h-[5rem] md:w-[270px] w-[16.88rem] md:px-[20px] px-[1.25rem]",
-                              children: [
-                                (0, i.jsx)(l(), {
-                                  src: h,
-                                  alt: "dedaub",
-                                  className:
-                                    "h-auto md:w-[146px] w-[9.13rem] md:mr-[20px] mr-[1.25rem]",
-                                }),
-                                (0, i.jsx)(l(), {
-                                  src: f,
-                                  alt: "securityButton",
-                                  onClick: () => {
-                                    SecuritySectionButton("deaub");
-                                  },
-                                  className:
-                                    "md:h-[38px] h-[2.38rem] md:w-[38px] w-[2.38rem] cursor-pointer relative z-50",
-                                }),
-                              ],
-                            }),
-                            (0, i.jsxs)(d.E.div, {
-                              className:
-                                "bg-[#0A0E16] flex items-center justify-between rounded-[8px] gradient-border md:h-[80px] h-[5rem] md:w-[270px] w-[16.88rem] md:px-[20px] px-[1.25rem]",
-                              children: [
-                                (0, i.jsx)(l(), {
-                                  src: x,
-                                  alt: "blochsec",
-                                  className:
-                                    "h-auto md:w-[150px] w-[9.38rem] md:mr-[20px] mr-[1.25rem]",
-                                }),
-                                (0, i.jsx)(l(), {
-                                  src: f,
-                                  alt: "securityButton",
-                                  onClick: () => {
-                                    SecuritySectionButton("blochsec");
-                                  },
-                                  className:
-                                    "md:h-[38px] h-[2.38rem] md:w-[38px] w-[2.38rem] cursor-pointer relative z-50",
-                                }),
-                              ],
-                            }),
-                          ],
-                        }),
-                      ],
-                    }),
-                  ],
-                });
-              },
-            }),
-          });
+          
         },
         PartnerSection = () => {
           let [e, t] = (0, o.useState)(!1);
-          return (
-            (0, o.useEffect)(() => {
-              let e = window.matchMedia("(hover: hover)").matches;
-              t(e);
-            }, []),
-            (0, i.jsx)("section", {
-              className:
-                "bg-[#0A0E16] min-h-[488.5px] w-full px-[25px] flex flex-col items-center pt-[4rem] pb-[4rem] relative z-20",
-              children: (0, i.jsx)(AnimatedModule, {
-                type: "text",
-                stagger: !0,
-                threshold: 0.1,
-                children: (t) => {
-                  let { inView: n } = t;
-                  return (0, i.jsxs)(d.E.div, {
-                    className:
-                      "flex flex-col max-w-screen-md items-center gap-[4.5rem]",
-                    children: [
-                      (0, i.jsxs)(d.E.div, {
-                        className: "flex flex-col  w-full items-center",
-                        children: [
-                          (0, i.jsx)(d.E.span, {
-                            className:
-                              "text-[#FF6F43] text-[1.6rem] font-medium mb-[6]",
-                            children: "partner",
-                          }),
-                          (0, i.jsx)(d.E.span, {
-                            className:
-                              "text-[#FFFFFF] text-[3.1rem] font-[600]",
-                            children: "Pets Markets partner",
-                          }),
-                        ],
-                      }),
-                      (0, i.jsx)(d.E.div, {
-                        className:
-                          "w-full h-auto relative partner-bg min-h-[300px] max-w-screen-md",
-                        children: (0, i.jsx)(PartnerGrid, {
-                          supportsHover: e,
-                          PartnerList: C,
-                          className:
-                            "md:h-[88px] h-[5.5rem] md:w-[88px] w-[5.5rem]",
-                          iconClassName:
-                            "md:w-[46px] md:h-[46px] w-[2.875rem] h-[2.875rem]",
-                          scale: 1.05,
-                        }),
-                      }),
-                    ],
-                  });
-                },
-              }),
-            })
-          );
+          
         },
         MediaSection = () => {
           let [e, t] = (0, o.useState)(1),
@@ -3246,54 +3020,7 @@
         },
         pages_PartnerSection = () => {
           let [e, t] = (0, o.useState)(!1);
-          return (
-            (0, o.useEffect)(() => {
-              let e = window.matchMedia("(hover: hover)").matches;
-              t(e);
-            }, []),
-            (0, i.jsx)("section", {
-              className:
-                "bg-[#0A0E16] min-h-[488.5px] w-full 2xl:px-[7.5%] px-[25px] flex flex-col items-center py-[4.125rem] relative z-20",
-              children: (0, i.jsx)(AnimatedModule, {
-                type: "text",
-                stagger: !0,
-                className: "w-full flex items-center flex-col",
-                children: (t) => {
-                  let { inView: n } = t;
-                  return (0, i.jsxs)(i.Fragment, {
-                    children: [
-                      (0, i.jsxs)(d.E.div, {
-                        className: "flex flex-col items-center mb-[4.5rem]",
-                        variants: getVariants("text", !0),
-                        children: [
-                          (0, i.jsx)(d.E.span, {
-                            className:
-                              "text-[#FF6F43] text-[1.6rem] font-medium mb-[6]",
-                            children: "partner",
-                          }),
-                          (0, i.jsx)(d.E.span, {
-                            className:
-                              "text-[#FFFFFF] text-[3.1rem] font-[600]",
-                            children: "Pets Markets partner",
-                          }),
-                        ],
-                      }),
-                      (0, i.jsx)("div", {
-                        className:
-                          "max-w-[82.5rem] w-auto h-auto relative my-[3.2rem] partner-bg",
-                        children: (0, i.jsx)(PartnerGrid, {
-                          supportsHover: e,
-                          PartnerList: C,
-                          className: "h-[7.73rem] w-[7.73rem]",
-                          iconClassName: "w-[3.125rem] h-[3.125rem]",
-                        }),
-                      }),
-                    ],
-                  });
-                },
-              }),
-            })
-          );
+          
         },
         pages_HeaderComponent = () => {
           let isTouchDevice = () => {
@@ -3697,127 +3424,7 @@
           let SecuritySectionButton = (e) => {
             window.open(I[e]);
           };
-          return (0, i.jsx)("section", {
-            className: "bg-[#0A0E16] min-h-[488.5px] w-full  px-[25px]",
-            id: "Security",
-            children: (0, i.jsx)(AnimatedModule, {
-              type: "text",
-              stagger: !0,
-              className: "flex justify-center",
-              children: (e) => {
-                let { inView: t } = e;
-                return (0, i.jsxs)("div", {
-                  className:
-                    "flex flex-col items-center mt-[4.125rem] mb-[9.125rem]  max-w-screen-1320 w-full",
-                  children: [
-                    (0, i.jsxs)(d.E.div, {
-                      className: "flex flex-col items-center mb-[4.5rem]",
-                      children: [
-                        (0, i.jsx)(d.E.span, {
-                          className:
-                            "text-[#FF6F43] text-[1.6rem] font-medium mb-[6]",
-                          children: "security",
-                        }),
-                        (0, i.jsx)(d.E.span, {
-                          className: "text-[#FFFFFF] text-[3.1rem] font-[600]",
-                          children: "Your safety, our top priority",
-                        }),
-                      ],
-                    }),
-                    (0, i.jsx)(d.E.div, {
-                      className:
-                        "w-full security-bg relative flex justify-end items-end",
-                      children: (0, i.jsxs)(d.E.div, {
-                        variants: getVariants("img", !0),
-                        className:
-                          "max-w-[43rem] flex flex-col gap-[2.25rem] justify-center mr-[4.6875rem] mb-[9rem]",
-                        children: [
-                          (0, i.jsx)(d.E.span, {
-                            className:
-                              "font-bold text-[2.3rem] leading-[2.3rem]",
-                            children: "Secured and protected",
-                          }),
-                          (0, i.jsx)(d.E.span, {
-                            className:
-                              "text-[1.4rem] text-[rgba(249,249,249,0.6)]",
-                            children:
-                              "Audited by the world’s leading security firms, security of the Pets Markets Protocol is the highest priority.",
-                          }),
-                          (0, i.jsxs)(d.E.div, {
-                            className: "flex flex-wrap gap-4",
-                            variants: getVariants("img", !0),
-                            children: [
-                              (0, i.jsxs)(HoverAnime, {
-                                className:
-                                  "bg-[#0A0E16] px-[0.975rem] py-[0.975rem] flex items-center max-h-[3.6rem] rounded-[8px] gradient-border",
-                                children: [
-                                  (0, i.jsx)(l(), {
-                                    src: y,
-                                    alt: "hexagate",
-                                    className:
-                                      "h-auto w-[7.14975rem] mr-[0.975rem]",
-                                  }),
-                                  (0, i.jsx)(l(), {
-                                    src: f,
-                                    alt: "securityButton",
-                                    className:
-                                      "h-[1.725rem] w-[1.725rem] cursor-pointer relative z-50",
-                                    onClick: () => {
-                                      SecuritySectionButton("hexagate");
-                                    },
-                                  }),
-                                ],
-                              }),
-                              (0, i.jsxs)(HoverAnime, {
-                                className:
-                                  "bg-[#0A0E16] px-[0.975rem] py-[0.975rem] flex items-center max-h-[3.6rem] rounded-[8px] gradient-border",
-                                children: [
-                                  (0, i.jsx)(l(), {
-                                    src: h,
-                                    alt: "dedaub",
-                                    className:
-                                      "h-auto w-[7.14975rem] mr-[0.975rem]",
-                                  }),
-                                  (0, i.jsx)(l(), {
-                                    src: f,
-                                    alt: "securityButton",
-                                    className:
-                                      "h-[1.725rem] w-[1.725rem] cursor-pointer relative z-50",
-                                    onClick: () =>
-                                      SecuritySectionButton("deaub"),
-                                  }),
-                                ],
-                              }),
-                              (0, i.jsxs)(HoverAnime, {
-                                className:
-                                  "bg-[#0A0E16] px-[0.975rem] py-[0.975rem] flex items-center max-h-[3.6rem] rounded-[8px] gradient-border",
-                                children: [
-                                  (0, i.jsx)(l(), {
-                                    src: x,
-                                    alt: "blochsec",
-                                    className:
-                                      "h-auto w-[8.1rem] mr-[0.975rem]",
-                                  }),
-                                  (0, i.jsx)(l(), {
-                                    src: f,
-                                    alt: "securityButton",
-                                    className:
-                                      "h-[1.725rem] w-[1.725rem] cursor-pointer relative z-50",
-                                    onClick: () =>
-                                      SecuritySectionButton("blochsec"),
-                                  }),
-                                ],
-                              }),
-                            ],
-                          }),
-                        ],
-                      }),
-                    }),
-                  ],
-                });
-              },
-            }),
-          });
+          
         };
     },
   },
