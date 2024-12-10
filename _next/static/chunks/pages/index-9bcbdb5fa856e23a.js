@@ -412,8 +412,8 @@
           },
         ],
         S = [
-          { href: "https://docs.Petsmarkets.xyz/", src: E, alt: "Book" },
-          { href: "https://Telegram.gg/Petsmarkets", src: A, alt: "Telegram" },
+          { href: "https://petsmarkets.gitbook.io/petsmarkets", src: E, alt: "Book" },
+          { href: "https://t.me/Petsmarkets_Channel", src: A, alt: "Telegram" },
           { href: "https://x.com/PetsMarketsHQ", src: F, alt: "X" },
         ],
         M = [
@@ -435,7 +435,7 @@
                 name: "X",
               },
               {
-                href: "https://Telegram.gg/Petsmarkets",
+                href: "https://t.me/Petsmarkets_Channel",
                 src: {
                   src: "/_next/static/media/telegram-circular.8d59adcc.svg",
                   height: 27,
@@ -829,7 +829,7 @@
               blurWidth: 0,
               blurHeight: 0,
             },
-            link: "https://Telegram.gg/Petsmarkets",
+            link: "https://t.me/Petsmarkets_Channel",
           },
           {
             id: 3,
@@ -846,14 +846,14 @@
               blurWidth: 0,
               blurHeight: 0,
             },
-            link: "https://docs.Petsmarkets.xyz/",
+            link: "https://petsmarkets.gitbook.io/petsmarkets",
           },
         ],
         R = "https://dapp.Petsmarkets.xyz",
         I = {
           hexagate: "https://www.hexagate.com/",
-          deaub: "https://docs.Petsmarkets.xyz/other-info/security",
-          blochsec: "https://docs.Petsmarkets.xyz/other-info/security",
+          deaub: "https://petsmarkets.gitbook.io/petsmarketsother-info/security",
+          blochsec: "https://petsmarkets.gitbook.io/petsmarketsother-info/security",
         };
       var D = n(6367),
         W = n(4814),
@@ -1513,7 +1513,7 @@
                         className:
                           "w-[15.265rem] h-[2.9575rem] md:w-[244.24px] md:h-[47.32px] cursor-pointer",
                         onClick: () => {
-                          window.open("https://docs.Petsmarkets.xyz/");
+                          window.open("https://petsmarkets.gitbook.io/petsmarkets");
                         },
                       }),
                     ],
@@ -2601,17 +2601,17 @@
                                     className:
                                       "text-[#FFF9F3] text-[4rem] mt-4 font-bold",
                                     children:
-                                      "0.00" === a.fixed
-                                        ? "--,---,---"
-                                        : (0, i.jsx)(eN.ZP, {
-                                            start: 0,
-                                            end: Number(a.value),
-                                            duration: 5,
-                                            separator: ",",
-                                            preserveValue: !0,
-                                            decimals: 2,
-                                            prefix: "$",
-                                          }),
+                                      // "0.00" === a.fixed
+                                         "--,---,---"
+                                        // : (0, i.jsx)(eN.ZP, {
+                                        //     start: 0,
+                                        //     end: Number(a.value),
+                                        //     duration: 5,
+                                        //     separator: ",",
+                                        //     preserveValue: !0,
+                                        //     decimals: 2,
+                                        //     prefix: "$",
+                                        //   }),
                                   }),
                               ],
                             }),
@@ -2634,17 +2634,17 @@
                                         className:
                                           "text-[#FFF9F3] text-[2rem] font-bold mt-4",
                                         children:
-                                          "0.00" === s.fixed
-                                            ? "--,---,---"
-                                            : (0, i.jsx)(eN.ZP, {
-                                                start: 0,
-                                                end: Number(s.value),
-                                                duration: 5,
-                                                separator: ",",
-                                                preserveValue: !0,
-                                                decimals: 2,
-                                                prefix: "$",
-                                              }),
+                                          // "0.00" === s.fixed
+                                            "--,---,---"
+                                            // : (0, i.jsx)(eN.ZP, {
+                                            //     start: 0,
+                                            //     end: Number(s.value),
+                                            //     duration: 5,
+                                            //     separator: ",",
+                                            //     preserveValue: !0,
+                                            //     decimals: 2,
+                                            //     prefix: "$",
+                                            //   }),
                                       }),
                                   ],
                                 }),
@@ -3062,7 +3062,7 @@
                       alt: "DocumentationIcon",
                       className: "w-[8.45vw] h-[1.64vw] cursor-pointer",
                       onClick: () => {
-                        window.open("https://docs.Petsmarkets.xyz/");
+                        window.open("https://petsmarkets.gitbook.io/petsmarkets");
                       },
                     }),
                   ],
