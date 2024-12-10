@@ -1960,8 +1960,9 @@
                                     className:
                                       "text-[#FFF9F3] text-[3.5rem] mt-[1.25rem] font-bold md:text-[56px] md:mt-[20px]",
                                     children:
-                                      "0.00" === a.fixed
-                                        ?(0, i.jsx)(eN.ZP, {
+                                      "0.00" !== a.fixed
+                                        ? "--,---,---"
+                                        : (0, i.jsx)(eN.ZP, {
                                             start: 0,
                                             end: Number(a.value),
                                             duration: 5,
@@ -1969,8 +1970,7 @@
                                             preserveValue: !0,
                                             decimals: 2,
                                             prefix: "$",
-                                          })
-                                        : "--,---,---",
+                                          }),
                                   }),
                               ],
                             }),
@@ -1994,8 +1994,9 @@
                                         className:
                                           "text-[#FFF9F3] text-[1.75rem] mt-[1.25rem] font-bold md:text-[28px] md:mt-[20px]",
                                         children:
-                                          "0.00" === s.fixed
-                                            ?(0, i.jsx)(eN.ZP, {
+                                          "0.00" !== s.fixed
+                                            ? "--,---,---"
+                                            : (0, i.jsx)(eN.ZP, {
                                                 start: 0,
                                                 end: Number(s.value),
                                                 duration: 5,
@@ -2003,8 +2004,7 @@
                                                 preserveValue: !0,
                                                 decimals: 2,
                                                 prefix: "$",
-                                              })
-                                            : "--,---,---",
+                                              }),
                                       }),
                                   ],
                                 }),
